@@ -13,16 +13,16 @@ warnings.filterwarnings("ignore")
 class NumericalSolver:
     def __init__(self, system: Callable, solver: str):
         """
-        Constructor Arguments:
-            1. system : Callable function of 2nd-order differential equation system
-            2. solver : Of string type. Options are:
+        # Constructor Arguments:
+            - `system` : Callable function of 2nd-order differential equation system
+            - `solver` : Of string type. Options are:
                 * `euler`
                 * `adams-moulton`
                 * `predictor-corrector`
                 * `runge-kutta-2`
                 * `runge-kutta-4`
                 * `adams-bashforth-2`
-        
+
         See Examples...
         """
         self.system = system
