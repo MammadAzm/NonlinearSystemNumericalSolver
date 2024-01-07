@@ -28,5 +28,5 @@ Try running the following line in your command prompt to install required packag
 pip install -r requirements.txt
 ```
 
-## Follow Examples
+## Examples
 See the example scripts to find out about how the module works. Try running the examples for better grasp. Also, for your convenience, it is recommended to study the given examples in the `.ipynb` rather then `.py` examples.
